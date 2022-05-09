@@ -5,7 +5,7 @@ public interface Printable {
 	public void print();
 	
 	//A static print() method that receives a list of printables and calls their print()
-	//methods3
+	//methods
 	public static void print(List <Printable> x) {
 		print(x);
 	}
